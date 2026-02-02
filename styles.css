@@ -1,0 +1,27 @@
+.outer {
+    border: 5px solid black;
+  }
+  
+  /*Calc function*/
+  .box {
+    padding: 10px;
+    width: calc(90% - 30px);
+    background-color: rebeccapurple;
+    color: white;
+  }
+
+  /*Transform*/
+
+  .square {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+  }
+
+  /*DOM*/
+  span {
+    border: 1px solid black;
+    background-color: lime;
+  }
