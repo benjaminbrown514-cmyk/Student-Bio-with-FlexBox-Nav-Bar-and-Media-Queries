@@ -28,3 +28,30 @@ h3 {
     background-color: lightgreen;
   }
 } 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: red;
+  }
+
+
